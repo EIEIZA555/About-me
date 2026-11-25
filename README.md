@@ -41,7 +41,6 @@ I have designed, configured, and troubleshot enterprise network infrastructures 
 * **Key Implementations:** Single-Area OSPFv2 (Process 1, Area 0), Router-on-a-Stick (802.1Q trunking), IOS DHCP Server pools, and internal DNS resolution (`www.diablo.local`).
 * **Troubleshooting Highlight:** Resolved sub-interface port conflicts and verified full OSPF route convergence across sites.
 
-👉 **[Explore Full Configurations, Topologies & `.pkt` Files in My Network Labs Repository](../cisco-network-engineering-labs)**
 
 ---
 

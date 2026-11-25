@@ -31,12 +31,12 @@ markdown file that describe about me
 
 I have designed, configured, and troubleshot enterprise network infrastructures in **Cisco Packet Tracer**, focusing on dynamic routing, VLAN segmentation, and perimeter firewall security.
 
-### 🔒 [Lab 05: Enterprise Perimeter Security & DMZ (Cisco ASA 5506-X)](../cisco-network-engineering-labs/tree/main/Lab05-Enterprise-ASA-Firewall)
+### 🔒 [Lab 05: Enterprise Perimeter Security & DMZ (Cisco ASA 5506-X)](https://github.com/EIEIZA555/cisco-network-engineering-labs/tree/main/Lab05-Enterprise-ASA-Firewall)
 * **Architecture:** 3-Zone Perimeter Firewall (`Inside_HR`, `Inside_Sales`, `DMZ`, `Outside`) with Security Levels 100/50/0.
 * **Key Implementations:** Dynamic PAT (NAT Overload) via Network Objects, Extended ACLs enforcing departmental access policies, ASA `dhcpd` services, and MPF Stateful Inspection (`inspect icmp`, `inspect http`).
 * **Troubleshooting Highlight:** Re-architected Inside zone connectivity using dedicated physical routed interfaces to overcome simulator 802.1Q sub-interface constraints and resolved implicit ACL drop behavior.
 
-### 🏢 [Lab 04: Enterprise Multi-Site WAN Routing with OSPFv2](../cisco-network-engineering-labs/tree/main/Lab04-Enterprise-OSPF-WAN)
+### 🏢 [Lab 04: Enterprise Multi-Site WAN Routing with OSPFv2](https://github.com/EIEIZA555/cisco-network-engineering-labs/tree/main/Lab04-Enterprise-OSPF-WAN)
 * **Architecture:** Multi-site WAN connecting Headquarters (HR VLAN 10 & Sales VLAN 20) to a remote Branch office.
 * **Key Implementations:** Single-Area OSPFv2 (Process 1, Area 0), Router-on-a-Stick (802.1Q trunking), IOS DHCP Server pools, and internal DNS resolution (`www.diablo.local`).
 * **Troubleshooting Highlight:** Resolved sub-interface port conflicts and verified full OSPF route convergence across sites.
